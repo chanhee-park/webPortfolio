@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 0;
+    background-color: #F3F3F3;
+    width: 100%;
+    height: 100%;
+}
+
+.article {
+    width: 80%;
+    height: 80%;
+    margin: 200px auto;
+}
+
+.basicInformation {
+    height: 400px;
+    padding-bottom: 150px;
+}
+
+.basicInformation__logo--left {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    float: left;
+}
+
+.basicInformation__introduce--right {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    float: right;
+}
+
+.basicInformation__name-year {
+    font-family: 'Kanit', sans-serif;
+    color: #757575;
+    font-size: 36px;
+}
+
+.basicInformation__name {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.basicInformation__year {
+    display: inline-block;
+    vertical-align: middle;
+    color: #a4a4a4;
+    padding-left: 30px;
+}
+
+.basicInformation__illustrate {
+    font-family: 'Exo', sans-serif;
+    color: #757575;
+    font-size: 24px;
+    padding-top: 48px;
+    line-height: 36px;
+}
+
+video {
+    width: 100%;
+}
+
+.metaInformation {
+    font-family: 'Kanit', sans-serif;
+    padding-top: 120px;
+    padding-bottom: 200px;
+    width: 100%;
+}
+
+.metaInformation__team {
+    font-size: 28px;
+    line-height: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+    float: left;
+}
+
+.metaInformation__teamName {
+    font-family: 'Exo', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.metaInformation__technology {
+    font-size: 28px;
+    line-height: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    float: right;
+}
+
+.metaInformation__client {
+    font-family: 'Exo', sans-serif;
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    float: left;
+}
+
+.metaInformation__server {
+    font-family: 'Exo', sans-serif;
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    float: right;
+}
+
+.navigator__exitButton {
+    width: 75px;
+    height: 75px;
+    position: fixed;
+    left: 92%;
+    top: 10%;
+    border: 1px #757575 solid;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Exo', sans-serif;
+    color: #757575;
+    line-height: 80px;
+}
+
+.navigator__exitButton:hover {
+    background-color: #696969;
+    cursor: pointer;
+}
+
+.navigator__exitButton a:link {
+    text-decoration: none;
+}
+
+.navigator__exitButton a:visited {
+    text-decoration: none;
+    color: #757575;
+}
+
+/* mouse over link */
+.navigator__exitButton a:hover {
+    text-decoration: none;
+}
+
+/* selected link */
+.navigator__exitButton a:active {
+    text-decoration: none;
+}
